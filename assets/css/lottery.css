@@ -1,0 +1,67 @@
+.lotteryWrapper {
+    float:none;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.tags-block {
+    border: 1px solid rgba(54, 64, 74, 0.08);
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    background-clip: padding-box;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+
+    margin: 0 auto;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+
+.bootstrap-tagsinput {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.newWinnerButton {
+    margin: 10px 0px;
+}
+
+.lotteryTable tr th:first-child{
+    font-weight: normal;
+}
+
+.lotteryWrapper input.parsley-success {
+    color: #468847;
+    background-color: #fff;
+    border: 1px solid #468847;
+}
+
+.lotteryInputWrapper {
+    position: relative;
+}
+
+.lotteryWrapper input.parsley-success + label:after {
+    content: "";
+    display: block;
+}
+
+.okIcon {
+    position: absolute;
+    top: 35px;
+    right: 15px;
+}
+
+.winnersWrapper {
+    display: inline-block;
+    float: none;
+}
+
+.number{
+    text-align: center;
+}
+
+.lotteryButton {
+    margin-top: 40px;
+}
