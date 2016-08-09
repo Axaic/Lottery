@@ -1,6 +1,6 @@
 # Lottery
 
-During task execution I used: bootstrap, bootstrap-datepicker, bootstrap-tagsinput, jquery, jquery-parsley(для валидации полей формы), jquery-mask (for Phone Number's filed mask), used gived templates.
+During task execution I used: bootstrap, bootstrap-datepicker, bootstrap-tagsinput, jquery, jquery-parsley(for form field validation), jquery-mask (for Phone Number's filed mask), used gived templates.
 
  Implemented adaptive layout (Bootstrap);
 
