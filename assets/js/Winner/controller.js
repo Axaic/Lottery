@@ -26,11 +26,7 @@
         winnerGroupView.update(winners);
     }
 
-     //adding new winner to table
-    // lotteryButton = document.getElementsByClassName('lotteryButton')[0];
-    // lotteryButton.addEventListener('click', addWinner);
-
-
+    //adding new winner to table
 
     function getInfo() {
         var name = document.getElementById('userName').value,
@@ -47,7 +43,6 @@
     winnersButton.addEventListener('click', showWinners);
 
     function showWinners () {    
- 
         winnerNames = [];
         winnerGroup.forEach(function (winner) {
             winnerNames.push(winner.getName());
